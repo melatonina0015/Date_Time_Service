@@ -12,6 +12,6 @@ public class MyApplication {
         context.refresh();
 
         CurrentDateTimeService dateTimeService = context.getBean(CurrentDateTimeService.class);
-        dateTimeService.display();
+        System.out.println(dateTimeService.display());
     }
 }
